@@ -1,0 +1,24 @@
+{
+  "name": "Ali \u2014 Autumn 10K",
+  "short_name": "Ali 10K",
+  "description": "Training plan \u00b7 Autumn 10K \u00b7 Fri 9 Oct 2026",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
