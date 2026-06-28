@@ -1,4 +1,4 @@
-const CACHE = 'running-plan-ali-10k-20260628-164203';
+const CACHE = 'running-plan-ali-10k-20260628-172612';
 const PRECACHE = ['/', '/manifest.json', '/icon-192.png', '/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(PRECACHE).catch(()=>{})).then(()=>self.skipWaiting()));
